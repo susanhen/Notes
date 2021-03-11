@@ -1,0 +1,52 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Minerva Report February 2021}
+\author{Susanne St{\o}le-Hentschel}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\section{Status at project start}
+My project heavily relies on measurements of waves and currents in the ocean. The main source of measurement should be from an X-band radar in combination with ADCPs. The X-band radar was broken in a storm and the data that has been measured at the sight of interest contains mainly observations of swells with a rather low significant waveheight of around one meter. The radar will be repaired and the group is hoping to get data with higher sea states. 
+
+In addition to the X-band radar the group is operating a high frequeny (HF)-radar. Just as my project started, the group is starting to make use of the data acquired by the HF radar. The range of HF-radars can be up to hundreds of kilometers and current measurements as well as estimates of wave spectra can be obtained from the backscatter. In contrast to the X-band radar the HF-radar does not provide phase-resolved wave measurements. The current that is measured by the HF-radar reflects the weighted average of the uppermost layer underneath the surface. Hence, the interpretation of the data and its application into current evolution models depends on a good understanding of how the measured current relates to the actual current profile. The research question is so similar to my own that it will be for the groups and my own benefit to join the activities with the HF-radar. 
+
+The status was provided by my supervisor Yaron Toledo ( 28.01, 9.30-10.30).
+
+\section{Integration into the group}
+The group has been working on tasks that are overlapping with my project. There have been a lot of investigations towards a better understanding of the coupling between ocean currents and waves. Multiple meetings (were set up that gave me the opportunity to understand the direction of the different research projects and also to participate in some of them. In particular, there are two phd student's that have been studying currents and wave-current interaction from a more theoretical point of view. I am planning to assist in combining their theoretical competence with measurements available. These activities will help me in building competence in the area of currents and current-wave interaction. Hopefully, the group will also benefit from my experience from dealing with real measurements. 
+
+Furthermore, the integration into existing projects helps me to become part of the group although I am working from a distance. 
+
+The meetings are organized according to needs and availability. Meetings were held at 4.2. (09.00-10.00) for activities with the X-band radar, 8.2. for activities regarding the HF-radar. A one-to-one meeting was held 18.2.(14.00-15.00) to plan the path forward with the PhD student Oshrat Klein. A meeting with the group and Helzel Messtechnik, the provider of the HF-radar was held 24.02. (10.00-11.00), followed by a meeting with the group. I joined a meeting for following derivations related to the Rayleigh equation. Bi-weekly meeting with Oshrat will take place to follow up the work. Additional meetings will be organized when suitable.
+
+
+\section{Progress}
+There are a number of prerequisites for my project:
+\begin{itemize}
+\item A suitable model to describe the interaction of shear current  and waves
+\item Adoption of shoaling conditions
+\item Preprocessed X-Band data
+\end{itemize}
+As outlined above, I have been exposed to current-wave modeling by joining common projects in the group. I have read some theory, seen the derivation of the Rayleigh equation by adopting an asymptotic approach (WKBJ). The method distinguishes fast and slow variables. In our case it can be assumed that currents are varying slowly compared to waves. A closer look at numerical implementations are planned for the coming weeks.\\
+
+Shoaling is a phenomenon related to the changing bottom topography  close to the shore. The waves coming in from deeper waters are becoming shorter and steeper due to the sloping sea bottom. As a result the wave field close to the shore is not homogeneous. An implementation for simulating shoaling waves for a given bottom profile was adopted from a previous phd student in the group and translated from Matlab to Python. As a next step it will be tested how the inhomogeneous waves are observed by the X-Band radar and which areas in the radar footprint are particularly suited for obtaining good results.\\
+
+The main focus during the first weeks was on preparing a new two-dimensional transfer function for making better use of the X-band radar. When using an X-band radar there is a large area of coverage but it has been a general custom to only use a smaller area parallel with the propagation direction of the waves. A new model is being developed for reverting the imaging mechanism that folds the data. The aim of the new method is to make use of areas with considerable angles between the radar beam and the propagation direction. If the method proves successful the flexibility for combining in-situ measurements and radar measurements will be increased.
+
+
+
+\end{document}  

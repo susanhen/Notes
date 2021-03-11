@@ -1,0 +1,91 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Characterization of sea states in a new light}
+\author{Susanne St{\o}le-Hentschel}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+
+\section{Introduction}
+The standard for describing the nature of a sea state is based on the directional frequency spectrum or resultant parameters. Methods for perceiving directional spectra based on measurements have been developed for single point systems, gauge arrays (both see /cite{}) and remote-sensing systems (see.. ). The suggested methods provide a good basis on describing the wave fields, however they are of limited guidance for wave warning and in particular freak wave warning. 
+
+One of the difficulties with the directional frequency spectrum is its ... on the assumption of weak stationarity?  ? where time series of 20 Minutes are typically used to define the sea state and dynamics are hence not captured.  References
+
+It has been attempted to create parameters that capture the likelihood of freak waves 
+
+ 
+
+%\subsection{}
+
+Sea states are traditionally characterized based on their directional wave spectrum {Benoit1997}. Surface waves are described as a stochastic process based on the random spectral measures $dZ\left(\mathbf{k}, \omega\right)$, associating  a random Amplitude $Z$ for the combination of a wavenumber vector $\mathbf{k}$ and an angular frequency $\omega$ \citep{Nieto1994}. 
+
+Given the surface elevation as function of the horizontal position vector and time $\eta(\mathbf{r}, t)$
+
+\begin{equation}
+\eta(\mathbf{r}, t) = \int_{\mathbf{k}}\int_{\omega} \mathrm{e}^{\left(\mathrm{i}\mathbf{k\cdot r}-\omega t\right)} dZ\left(\mathbf{k}, \omega\right)
+\end{equation}
+The dependence between $\mathbf{k}$ and $\omega$ is definded by the dispersion relation which in the linear case is given by
+ \begin{equation}
+\omega(\mathbf{k}) = \sqrt{gk \tanh(kd)} ,
+\end{equation}
+for the water depth $d$ and $k =|(\mathbf{k}|$.
+
+The power spectral density results from applying the expectation operator to the power of the stochastic process 
+\begin{equation}
+F(\mathbf{k}, \omega) = \mathbb{E}\left[  dZ\left(\mathbf{k}, \omega\right) \overline{dZ\left(\mathbf{k}, \omega\right)}  \right].
+\end{equation}
+
+This directional wave spectrum s typically decomposed into a scalar spectrum and a directional spectrum,
+
+
+where the scalar spectrum is defined as
+\begin{equation}
+S(\omega) = \int_{\mathbf{k}} F(\mathbf{k}, \omega) d\mathbf{k},
+\end{equation}
+and the directional spectrum $D(f,\theta)$ is a function of frequency and angle of the wavenumber vector, $\theta$.
+For both, there exist a number of models that have been developed based on measurements. The model parameters are typically based on wind parameters like velocity of the wind field $U$ and fetch (how long the wind field has acted on the wave field). 
+
+
+The most commonly model for the directional distribution is based on the cosine square function
+\begin{equation}
+D(f,\theta) = G[s(f)]\left[\cos{\left(   \frac{\theta - \overline{\theta}(f)}{2} \right)}\right]^{2s(f)},
+\end{equation}
+where $G$ is the normalization to fulfill
+\begin{equation}
+\int_0^{2\pi}D(f,\theta)d\theta = 1
+\end{equation}
+and the spreading function $s(f)$ depending $U$ and the peak frequency $f_p$. 
+The model was inititated by \cite{Mitsuyasu1975}  and further refined by \cite{GudaSuzuki1985}  resulting in 
+\begin{equation}
+s(f) = s_{\max} \left(\frac{f}{f_p}\right)^\mu\\
+\mu = \left\{ \begin{array}{ll}
+        \mu_1\geq 0  & \mbox{if $f < f_p$}\\
+        \mu_2\leq 0& \mbox{otherwise}.\end{array} \right.
+\end{equation}
+The fetch of the sea state is reflected in the values of $s_{\max}$ and $\mu$. Higher absolute values of both correspond the sea states of swell, associated with longer, more unidirectional waves. In the opposite case the sea state is more Windsea like with shorter crests and less unidirectional.
+
+
+into a frequency spectrum
+
+\begin{equation}
+E(f) = \int_0^{2\pi} S(f, \theta) d\theta
+\end{equation}
+and a non-negative directional spreading function (DSF) with
+
+
+
+\end{document} 
