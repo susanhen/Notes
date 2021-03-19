@@ -1,4 +1,4 @@
-\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\documentclass[11pt]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
 %\geometry{landscape}                		% Activate for rotated page geometry
@@ -59,9 +59,11 @@ assuming $\left(\partial\eta\right / \partial x )^2\ll 1$, $\left(\partial\eta\r
 
 After replacing $x=r\cos(\phi)$ and $y=r\sin(\phi)$, Equation \ref{eq:local_incidence} can then be approximated by
 \begin{align}
-\cos(\phi) \partial\eta / \partial x + \sin(\phi) \partial\eta / \partial y + \frac{(H-\eta) }{r} =  \cos(\theta_l).
+\cos(\phi) \partial\eta / \partial x + \sin(\phi) \partial\eta / \partial y + \frac{H-\eta}{r} =  \cos(\theta_l).
 \label{eq:approx_local_incidence}
 \end{align}
+
+Assuming $ \frac{H-\eta}{r}\approx \frac{H}{r}$
 
 To find the MTF, Fourier transform $\mathcal{F}$ is applied. The term $\frac{H-\eta}{r}$ contributes energy at low wavenumbers that are typically filtered. The term is therefor neglected  (compare \cite{Stole-Hentschel18}). Based on the grazing incidence assumption that $\theta_l$ is close to $\pi/2$ we also approximate $\cos(\theta_l)\approx\theta_l$ NOTE: we could also apply the cosine term to the measurement!!!. The two-dimensional tilt forward MTF is hence given by
 
