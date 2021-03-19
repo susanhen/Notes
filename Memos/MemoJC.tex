@@ -1,0 +1,69 @@
+%! program = pdflatex
+
+%\documentclass[12pt,a4paper]{memoir} % for a long document
+\documentclass[12pt,a4paper,article]{memoir} % for a short document
+
+% See the ``Memoir customise'' template for some common customisations
+% Don't forget to read the Memoir manual: memman.pdf
+
+\title{Memo cooperation JC and S}
+\author{Susanne, strongly forced by JC}
+%\date{} % Delete this line to display the current date
+\usepackage{graphicx}
+\graphicspath{{../WaveCharacterizationByMinkowskiScalarsAndTensors/images/}}
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+\maketitle
+\tableofcontents* % the asterisk means that the contents itself isn't put into the ToC
+
+\chapter{Radar specific work}
+\section{Summary of Simulations}
+JC has simulated numerous sea states. His findings must be published
+
+
+\paragraph{Task 1:} JC writes a summary of his simulations. 
+\paragraph{Deadline:} Mid April.
+\paragraph{Task 2:} JC thinks about if it would be more meaningful to publish his simulations alone or if it should be combined with something and if so what.
+\paragraph{Deadline:} 1st April.
+
+\section{Details on 2D MTF}
+S has developed an 2D MTF that can be applied to small patches in multiple positions in the radar image and correct the azimuthal projection in some way. The findings of Susanne on where the MTF works well are in agreement with what JC found.
+
+\paragraph{Task 1:} S completes the paper that was started and shares it with JC
+\paragraph{Deadline:} 26.March
+\paragraph{Task 2:} S JC gives feedback on that 
+\paragraph{Deadline:} 7. April
+
+\chapter{Group line}
+We know there are multiple factors that create a goup line (cloud) in wave measurements. Some contributions are physical, some are related to the imaging mechanism (shadowing mainly). Is wave breaking here an imaging or a physical mechanism?
+
+K and JC previously tried to split the contributions. We should continue to work on that! (preferably with data of waves where there is a group line (no imaging) and then applying some imaging model to see how it changes and if we find a way to split it later.
+
+\paragraph{Task 1:} JC sends list of "must-read" papers to S
+\paragraph{Deadline:} 23 March.
+\paragraph{Task 2:} S reads them and prepares a Note with the most important issues
+\paragraph{Deadline:} 7. April
+
+
+
+\chapter{Directional spreading}
+Susanne has started to work with a former colleague and his team to describe the directional spreading of waves merely by analyzing the morphometry of waves (see morphomety.org). The tool calculates Minkowski scalars and tensors to quantify the shapes. There are twelve indicators that describe the shape. The more indicators used, the more detailed the description of the geometry. The idea is to find a way to characterize sea states by a simple tool that does not depend on a model. The Morphometry analysis does also allow the analysis of inhomogeneous fields ( the feature is not yet available in the python interface but will shortly follow).
+
+A test for simulated waves based on waves with  Mitsuyatsu spreading show the following relation between smax and the indicator q2
+\begin{figure}
+	\includegraphics{smax_q2.pdf}
+	\caption{Indicator $q_2$ calculated for a smax. }
+\end{figure}
+
+For this example of waves all the even q's show an increase. With every even q the steepness of the curve decreases.
+It is planned to calculate mean curves with a confidence interval. All the analysis is performed on a given threshold, this can be thought of as a contour line. By varying the threshold the wave can be characterized at different levels. 
+
+\paragraph{Task 1:}  S provides a document with more information, 
+\paragraph{Deadline : } Mid April  
+\paragraph{Task 2:}  JC provides information on the standard method of deriving directional wave spectra. A part from the Mitsuyatsu, which other models should be used?
+\paragraph{Deadline : } 26. March  
+\paragraph{Task 3:} Question: Could it be useful to analyze the shape of the wave groups? Eg. By Analyzing the Envelope? Maybe this could give an idea of how groups develop as well? How large would such a patch have to be? Maybe that is the limiting factor... for simulations it might be interresting.
+\paragraph{Dealdline:} 23. March
+\end{document}
