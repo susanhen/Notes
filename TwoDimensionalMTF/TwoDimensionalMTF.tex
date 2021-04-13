@@ -35,8 +35,10 @@ This work is motivated from the need to correlate radar measurements to numerous
 
 When observing coastal areas it is of great interest to observe a larger area parallel with the shore line. ... 
 
+
+
 \section{Theory}
-The MTF used herein is an extension of the one-dimensional case described in \cite{Stole-Hentschel18}. The ... assumes that data is used that allow the assumption of no shadows in the image. It is further assumed that some  pre-processig of the radar image has taken place, i.e. range-dependent imaging effects  related to decay in the electromagnetic energy have been removed. The pure tilt based MTF can then be estimated from geometrical principles. It is assumed that the amplitude of the backscatter signal is proportional to the local incidence angle $\theta_l$ that is defined as angle between the surface normal $\mathbf{n}$ and the backscatter vector $\mathbf{b}$ pointing form the surface to the radar antenna. 
+The MTF used herein is an extension of the one-dimensional case described in \cite{stole2018consistency}. Analogue to that paper, the MTF is only correcting the imaging mechanism of tilt modulation. Hence, shadowing effects are not taken into consideration and will have to be dealt with separately if they exist. More information regarding shadowing will be provided in Section~\ref{sec:shadowing}. It is further assumed that some  pre-processig of the radar image has taken place, i.e. range-dependent imaging effects  related to decay in the electromagnetic energy have been removed. The pure tilt based MTF can then be estimated from geometrical principles. It is assumed that the amplitude of the backscatter signal is proportional to the local incidence angle $\theta_l$ that is defined as angle between the surface normal $\mathbf{n}$ and the backscatter vector $\mathbf{b}$ pointing form the surface to the radar antenna. 
 \begin{align}
 \mathbf{n}\cdot \mathbf{b} = \left| \mathbf{n} \right| \left| \mathbf{b} \right| \cos(\theta_l),\label{eq:local_incidence}
 \end{align}
@@ -63,12 +65,23 @@ After replacing $x=r\cos(\phi)$ and $y=r\sin(\phi)$, Equation \ref{eq:local_inci
 \label{eq:approx_local_incidence}
 \end{align}
 
-Assuming $ \frac{H-\eta}{r}\approx \frac{H}{r}$
+In contrast to \cite{stole2018consistency}, the last term on the left hand side ist not neglected but approximated by $ \frac{H-\eta}{r}\approx \frac{H}{r}$. For simplicity, this term is corrected in the physical domain and hence, the MTF is really  a two step correction. 
 
-To find the MTF, Fourier transform $\mathcal{F}$ is applied. The term $\frac{H-\eta}{r}$ contributes energy at low wavenumbers that are typically filtered. The term is therefor neglected  (compare \cite{Stole-Hentschel18}). Based on the grazing incidence assumption that $\theta_l$ is close to $\pi/2$ we also approximate $\cos(\theta_l)\approx\theta_l$ NOTE: we could also apply the cosine term to the measurement!!!. The two-dimensional tilt forward MTF is hence given by
+A general inversion of Equation~\ref{eq:approx_local_incidence} is only possible based on simplifying assmuptions. Here, two possible solutions will be presented in the folloiwng subsections.
 
+\subsection{Unidirectional waves}
+Whenever it can be assumed that the waves are approximately unidirectional (with $\partial\eta \partial x \approx 0$), Equation~\ref{eq:approx_local_incidence}, the tilt of the waves is easily retrieved
 \begin{align}
-\mathcal{F}\left[\cos(\phi) \right] \ast \left[\mathrm{i}k_x \mathcal{F}(\eta) \right] + \mathcal{F}\left[\sin(\phi) \right] \ast\left[\mathrm{i} k_y \mathcal{F}(\eta)\right]  \approx  \mathcal{F}(\theta_l).
+\partial\eta / \partial y  = \frac{  \cos(\theta_l) - \frac{H}{r}}{\sin(\phi) }
+\label{eq:unidir_solution}
+\end{align}
+The surface elevation can be found by numerical integration in the physical domain or in the wavenumber domain.
+
+
+\subsection{Simplfied correction of  azimuth convolution}
+To find the MTF, Fourier transform $\mathcal{F}$ is applied. 
+\begin{align}
+\mathcal{F}\left[\cos(\phi) \right] \ast \left[\mathrm{i}k_x \mathcal{F}(\eta) \right] + \mathcal{F}\left[\sin(\phi) \right] \ast\left[\mathrm{i} k_y \mathcal{F}(\eta)\right]  \approx  \mathcal{F}\left( \cos(\theta_l)-\frac{H}{\eta} \right).
 \end{align}
 Inverting the latter equation is not possible, further assumptions are needed. For limited extensions of the patch to be analyzed the azimuth-angle dependent functions can be approximated by a single value. The dominant values for $\mathcal{F}\left[\cos(\phi) \right]$ and $\mathcal{F}\left[\sin(\phi) \right]$ are the zero-frequency components, $\mathcal{F}\left[\cos(\phi) \right]_{0,0}$ and $\mathcal{F}\left[\sin(\phi) \right]_{0,0}$. Hence, the convolution operator is not longer required and the two-dimensional inverse MTF is given by the following equation
 \begin{align}\label{eq:approx_MTF}
@@ -79,16 +92,19 @@ The validity of the assumptions used herein is explored in the next section. It 
 
 
 \section{Validation of Assumptions}
-\subsection{Shadow free parts of the image}
-
-\subsection{High pass filtering}
-The high pass filter introduces an error (the original wave has always some low frequency contributions)... apply some windowing upfront? if used in wavenumber frequency, can we than distiguish between static patterns and wave patterns at low frequencies?
-For the analysis of the other contributions low frequencies are filtered...
 
 \subsection{Approximated incidence angle}
-Test a range of conditions; how well does Equation~\ref{eq:approx_local_incidence} approximate Equation~\ref{eq:local_incidence}.
+\begin{figure}
+\includegraphics[width=\textwidth]{theta_l_approx}
+\caption{Comparison of the local incidence angle and the approximation. The left subfigure shows the root mean square error scaled by the standard deviation of the local incidence angle $\sigma(\theta_l)$. The right subfigure shows the ratio between the standard deviations.}
+\label{fig:theta_l_approx}
 
-Based on different wave fields we investigate how well the simplified local incidence angle matches the exact incidence angle. The smallest wavenumber ($k<0.03$) contributions have been eliminated by a high pass filter. To distinguish the two incidence angles, a tilde is added to the approximation in the current secion ($\widetilde{\theta_l}$).
+\end{figure}
+
+Based on different wave fields (...!!!...) the local incidence angle ($\theta_l$) and the approximated local incidence angle ($\widetilde{\theta_l}$) are calculated. Before the comparison, the zeroth wavenumber-frequency component was set to zero. 
+Figure~\ref{fig:theta_l_approx} shows that Equation~\ref{eq:approx_local_incidence} is a good approximate of Equation~\ref{eq:local_incidence}. The error of the approximation increases with the ratio $H/r$ but even for a large ration, the numbers are small.
+
+
 
 \subsection{Simplified azimuth convolution}
 
@@ -97,57 +113,9 @@ Based on different wave fields we investigate how well the simplified local inci
 \caption{The figure illustrates that the validity of replacing the azimuth convolution by a single value depending of the position of the analysis window. The patch size is 64 by 64 points with a resolution of 7.5 m in both directions. The subplots show the respective ratios of $\mathcal{F}\left[\cos(\phi) \right]_{0,0}$ and $\mathcal{F}\left[\sin(\phi) \right]_{0,0}$ and the next biggest value of the $\mathcal{F}\left[\cos(\phi) \right]$ and $\mathcal{F}\left[\sin(\phi) \right]$. }
 \label{fig:approximateAzimuthConvolution}
 \end{figure}
-\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
-\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
-%\geometry{landscape}                		% Activate for rotated page geometry
-%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
-\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
-								% TeX will automatically convert eps --> pdf in pdflatex		
-\usepackage{amssymb}
-
-%SetFonts
-
-%SetFonts
-
-
-\title{Brief Article}
-\author{The Author}
-%\date{}							% Activate to display a given date or no date
-
-\begin{document}
-\maketitle
-%\section{}
-%\subsection{}
 
 
 
-\end{document}  \documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
-\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
-%\geometry{landscape}                		% Activate for rotated page geometry
-%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
-\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
-								% TeX will automatically convert eps --> pdf in pdflatex		
-\usepackage{amssymb}
-
-%SetFonts
-
-%SetFonts
-
-
-\title{Brief Article}
-\author{The Author}
-%\date{}							% Activate to display a given date or no date
-
-\begin{document}
-\maketitle
-%\section{}
-%\subsection{}
-
-
-
-\end{document}  
 Figure~\ref{fig:approximateAzimuthConvolution} shows the ration between the most energetic components of  respectively for different window positions in the radar footprint. The calculations are based on a window of (480m,480m) in size. The horizontal offset from the radar antenna is given on the x-axis. Each line corresponds to different vertical offsets. When the ratio on the y-axis of the subplots is low, the simplified correction of the azimuth projection works well.  The two subplots show opposing results and illustrating that the suggested two-dimensional MTF works best for sea states with limited directional spreading. The left subplot shows the effect of the projection of the y-component and the right subplot the projection of the x-component.
 Assuming that the y-axis points into the waves and the x-axis is parallel to the wave crests, the dominating projection is that in y-direction (compare Equation~\ref{eq:approx_MTF}). Close to the radar antenna the inhomogenity of the azimuthal projection introduces a considerable error even for the central position on the x-axis. Beyond 800 of vertical distance, the horizontal position is of less importance but these areas are subject to shadowing, at least for higher sea states. 
 
@@ -158,9 +126,24 @@ Show example of correct and approximated surface
 Show how high pass filter helps to remove range dependence (for small enough patch?)
 check resolution as well!!! how much does it influence e.g. the assumption on small patch
 
+\section{Shadowing...}\label{sec:shadowing}
+\subsection{Shadow free parts of the image}
+TODO: show where the image can be considered shadow-free 
+
+\subsection{Mitigating the effect of the shadowing}
+TODO: show techniques how to remove the shadows... (Pavel's, mine, dispersion filtering)
+
 \section{Application}
+Purpose of the data:
+- statistical evaluations
+- surface inversion
+- retrieval of bottom top. or current profile
+
+The three main areas for which radar images have been used are: 
+
 
 \section{Conclusion} The two dimensional tilt MTF reverses the azimuthal convolution. The method is not exact but patches covering less than ... the approximation is within ..... . The suggested MTF allows the usage of areas that are xx degrees from the main wave direction in azimuth of the radar. Based on this extended flexibility, leads to a number of improvements. The analysis does not have to be placed into the main wave direction, allowing a more simplified comparison to data from equipment in the vicinity of the radar. Furthermore, the analysis of nearshore regions is ameliorated by the extended area of coverage parallel to the beach.
 
-\bibliography{xyz}
+\bibliographystyle{apalike}
+\bibliography{../AllArticles.bib}
 \end{document}  
