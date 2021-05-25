@@ -1,0 +1,51 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+\usepackage{natbib}
+%SetFonts
+
+%SetFonts
+
+
+\title{Minerva Report April 2021}
+\author{Susanne St{\o}le-Hentschel}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+During the month of April, the results from previous months were integrated further and combined. Work with students has turned from a planning stage to more concrete pursuit of tasks. In the previous report the theory on the Rayleigh equation and the work with the HF radar were separate tasks. The combination of the two has now started. For the work with the X-band radar, Rayleigh theory has not yet been integrated as the accuracy of the measurements is too low.
+
+
+\section{Combining the Rayleigh equation and current measurements with the HF radar}
+Traditionally HF radars are used to estimate the bulk current in the upper layer of the ocean. The measurement is based on a Doppler offset of the waves with half the wavelength of the emitted electromagnetic wave. A better understanding of the dynamics in the upper layer require a more detailed description of the current that is changing over depth. Submerged measurement devices like ADCPs give current profiles in deeper layers of the water. Measurements in the uppermost layer are a challenge due to the combination of physics:  The water particles's oscillatory movement due to waves interacts with the shear currents. We followed the work of \citet{ivonin2004validation} to dive further into the estimate of shear currents. \citet{ivonin2004validation} took advantage of the fact that the HF include additional Doppler shifts that result in estimates of the current at different depths, associated to the Bragg wave, the second order Bragg wave and corner reflections of waves with a degree of $45^\circ$ to each side of the radar. Initial results show that we can find theses peaks with our radar even though our radar has different characteristics. We are currently working on extending the previous work. Tests are performed by the Master student Giora where I am trying to provide some guidance. 
+
+In the last group meeting it was decided to combine more theoretical solutions of the Rayleigh equation to possibly find additional measurement points that can be used to invert a more detailed current profile.
+
+\section{Measuring shear currents with the X-band radar}
+The main findings with the X-band radar are still solely based on theoretical work. In previous work, current profiles were estimated from X-band radar data without a validation of the employed methods \citep{lund2018near, campana2016development}. Therefore the path from radar image to current profile was analyzed in sub-steps. Starting from a simulated sea surface (provided with a typical X-band radar resolution), the dispersion relation was visualized in the spectral domain. In contrast to previous methods, the dispersion relation was analyzed separately for each frequency slice. The current leads to a distortion of the dispersion relation which is increasing for higher frequencies. As a result, errors on lower frequencies have a stronger effect. Lower frequencies are associated with the current profile at deeper levels under the sea surface. 
+
+The estimates of the current speed and direction were performed in two steps. 1. Estimate of the dispersion relation  based on the energy distribution in the spectrum. 2. Evaluation of the approximation error for the current speed and direction based on a given dispersion relation. For this task the correct dispersion relation was assumed to be known.
+
+The two main outcomes are that an accurate estimation of the dispersion relation is difficult due to limited resolution in the wavenumber-frequency domain. Further improvements are being investigated. It was further found that the current speed and direction are well approximated even for cases with limited spreading. However, the error depends on the relative angle between current and waves.
+
+Finally, it has been tested how much the energy distribution of the waves changes when different models of the imaging mechanism are employed. The main conclusion from this task was that the imaging does not alter the dispersion relation but redistributes the energy on the dispersion relation. Amongst others the spreading is lowered. Since a reconstruction on perfectly simulated waves has not yet been successful, the investigation if the effect from the imaging mechanism was postponed.
+
+ 
+
+\section{Meetings}
+During the entire month, we had weekly meetings with the HF-teams. Follow-up of students was organized by combination of e-mail, chats and spontaneous video-calls. A three hour long meeting with a representative from the HF-radar provider HELZEL was triggering a lot of ideas within the HF team.
+
+Meetings regarding the X-band radar were held with Yaron one a weekly basis. A plan for a first publication was laid out.
+
+\bibliographystyle{apalike}
+\bibliography{../AllArticles.bib}
+
+\end{document}  

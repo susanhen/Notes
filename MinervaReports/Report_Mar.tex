@@ -1,0 +1,45 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+\usepackage{natbib}
+%SetFonts
+
+%SetFonts
+
+
+\title{Minerva Report March 2021}
+\author{Susanne St{\o}le-Hentschel}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+After the month of February that was mainly about integrating into present projects and the group in Tel Aviv, the month of March was used to fill gaps of knowledge in order to approach the new tasks. All tasks are connected but they will be presented in three different sections.
+
+\section{Theory on the Rayleigh equation}
+Most students in Yaron's group are familiar with solving the Rayleigh equation to find how a shear current influences the wave celerity. Different students have been using different tools to solve the equation but mostly high level tools. For me, it is important to understand the main processes of my research to the very bottom. Therefore, I first implemented parts of the paper of \cite{stewart1974hf} by using symbolic python (sympy, \citet{10.7717/peerj-cs.103}). The framework that was built along the way automatically generates a .tex-file that is helpful in displaying various steps in a clean way. As second step I implemented code provided by Oshrat with python. The original code was written in Mathematica where the so-called shooting method is used to solve the Boundary value problem as an initial value problem. I implemented the shooting method in python based on the available ODE-solvers in scipy \citep{2020SciPy-NMeth}. 
+
+\section{Work with the X-band radar}
+The initial idea  of improving the modulation transfer function (MTF) was presented in February. As a first step the new MTF was compared to the old MTF for simple monochromatic sea states with various wave directions. The reconstructed surfaces were compared both in the physical and spectral domain and for both comparisons the new method shows more promising results and in particular in the spectral domain. This is promising for the task of estimating the current profile based on radar images of the waves. The shear current manifests as a distortion of the dispersion relation that is found in the spectral domain. This lead to the task currently under development: How can the dispersion relation be defined from the wave spectrum. The main challenge here lies in the fact that the resolution of the radar is limited. The interpolation of the dispersion relation must succeed with a precision lower than the resolution of the radar. The results of this task are expected to follow within the next month. Once the technique is developed for simulated wave fields it will be investigated how much the estimates deviate depending on the different imaging mechanisms and how the different MTFs improve the estimates. 
+
+ 
+
+\section{Work with the HF radar}
+As part of the HF radar activities it was important to understand the work of \cite{stewart1974hf} as indicated above. The layer influencing the Doppler shift in the measurements are only a fraction of the governing wavelength, in our case less than 3 meters. During the group meetings we investigated the available data. The group asked for another meeting with the company Helzel that delivered the HF radar. This meeting will take place at 6.4. The aim of the meeting is to get the notion of a smooth workflow with the system and how to find data of high quality in an efficient manner. We have also performed an initial literature search to get a better picture of how other groups have been using HF radars. The way forward will be to compare HF radar measurements with those of other instruments were feasible. Furthermore, it will be investigated if the underlying assumptions for the algorithms applied by Helzel's data processing are valid.
+
+\section{Meetings}
+HF-radar: Regular meetings with the HF-team have been taking place in a bi-weekly format. In the beginning of March, the meetings were held between Oshrat and me. In the end of March Yaron and Giora joined in as well. After the Pesach break, there will be a weekly meeting held on Tuesdays.
+
+X-band radar: There was one long meeting between with Yaron to discuss various topics around the X-band radar activities. The project is in a stage where I have to build a lot of tools and make some investigations that need little guidance but require a lot of time. Once these tasks are finalized it is planned to involve a larger group of people. Furthermore, Yaron was on sick leave due to an unexpected surgergy in the middle of March. It was decided that from April, there will be weekly progress meetings between Yaron and Susanne.
+
+\bibliographystyle{apalike}
+\bibliography{../AllArticles.bib}
+
+\end{document}  

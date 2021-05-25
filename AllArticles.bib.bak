@@ -1,0 +1,1039 @@
+% Encoding: UTF-8
+JGR=Journal of Geophysical Research
+JFM=Journal of Fluid Mechanics
+
+@Article{Alpers1978,
+  author  = {{Alpers}, W. and {Hasselmann}, K.},
+  journal = {Boundary Layer Meteorol.},
+  title   = {{The two-frequency microwave technique for measuring ocean spectra from an airplane or satellite}},
+  year    = {1978},
+  pages   = {215--230},
+  volume  = {13},
+}
+
+@ARTICLE{Alpers1981,
+   author = {{Alpers}, W. and {Hasselmann}, K.},
+    title = "{Spectral signal to clutter and thermal noise properties of ocean wave imaging synthetic aperture radars}",
+  journal = {International Journal of Remote Sensing},
+     year = 1982,
+   volume = 3,
+    pages = {423-446}
+}
+@ARTICLE{Alpers1982,
+   author = {{Alpers}, W. R. and {Ross}, D. B. and Rufenach, C. L.},
+    title = {On the detectability of ocean surface waves by real and synthetic aperture radar},
+  journal = {JGR},
+     year = 1981,
+   volume = 86,
+    pages = {6481--6498}
+}
+
+@Book{Akhmanov64,
+  author = {Akhmanov, S. A. and  Khokhlov, R. V.},
+  title = {Problems in Nonlinear Optics [in {R}ussian]},
+  publisher = {Izd-vo AN SSSR},
+  year = {1964}
+}
+@Article{bitner14,
+  author = {Bitner-Gregersen, E. M. and Toffoli, A.},
+  title = {Occurence of rogue sea states and consequences for marine structures},
+  journal = {Ocean Dyn.},
+  volume = {64},
+  pages = {1457--1468},
+  year = {2014}
+}
+
+@Article{Carrasco16,
+    AUTHOR = {Carrasco, R. and Stre{\ss}er, M. and Horstmann, J.},
+    TITLE = {A Simple Method for Retrieving Significant Wave Height from Dopplerized X-Band Radar},
+    JOURNAL = {Ocean Science Discussions},
+    VOLUME = {2016},
+    YEAR = {2016},
+    PAGES = {1--14}
+}
+
+@article{Bonnefoy2009,
+  author = 	 {Bonnefoy, F. and Ducrozet, G. and Le Touz\'{e}, D. and Ferrant, P.},
+  title = 	 "Time-domain simulation of nonlinear water waves using spectral methods",
+  journal =	 {Advances in Numerical Simulation of Nonlinear Water Waves},
+  year =	 {2009},
+  volume =	 {11},
+  pages =	 {129--164}
+}
+
+@Article{Dankert2004,
+  author = 	 {Dankert, H. and Rosenthal, W},
+  title = 	 {Ocean surface determination from X-band radar-image sequences},
+  journal =	 {Journal of Geophysical Research},
+  year =	 {2004},
+  volume =	 {109},
+  number =	 {C04016}
+}
+
+@Book{Dean1984,
+    author = {Dean, R. and Dalrymple, R.},
+    title = {{W}ater {W}ave {M}echanics for {E}ngineers and {S}cientists},
+    publisher = {World Scientific},
+    address = {Singapore},
+    year = {1984}
+}
+
+@Article{Dommermuth1987,
+  author  = {Dommermuth, D. G. and Yue, D. K. P.},
+  journal = {J. Fluid Mech.},
+  title   = {A high-order spectral method for the study of nonlinear gravity waves.},
+  year    = {1987},
+  pages   = {267--288},
+  volume  = {184},
+}
+
+@Article{Dommermuth2000,
+  author  = {Dommermuth, D. G.},
+  journal = {Wave Motion},
+  title   = {The initialization of nonlinear waves using an adjustment scheme.},
+  year    = {2000},
+  pages   = {307-317},
+  volume  = {32},
+}
+
+@article{Ducrozet2012,
+  author = 	 {Ducrozet, G. and Bonnefoy, F. and Le Touz\'{e}, D. and Ferrant, P.},
+  title = 	 "A modified High-Order Spectral method for wavemaker modeling in a numerical wave tank",
+  journal =	 {European Journal of Mechanics-- B/Fluids},
+  year =	 {2012},
+  volume =	 {34},
+  pages =	 {19--34}
+}
+
+
+
+
+
+@article{Dysthe2003,
+author = {DYSTHE,KRISTIAN B. and TRULSEN,KARSTEN and KROGSTAD,HARALD E. and SOCQUET-JUGLARD,HERVÉ},
+title = {Evolution of a narrow-band spectrum of random surface gravity waves},
+journal = {Journal of Fluid Mechanics},
+volume = {478},
+month = {3},
+year = {2003},
+issn = {1469-7645},
+pages = {1--10},
+numpages = {10},
+doi = {10.1017/S0022112002002616},
+URL = {http://journals.cambridge.org/article_S0022112002002616},
+}
+
+@article{Dysthe2008,
+author = {Dysthe, K. B and Krogstad, H. and  M\"uller, P.},
+title = {Oceanic Rogue Waves},
+journal = {Annu. Rev. Fluid Mech.},
+volume = {40},
+year = {2008},
+pages = {287--310}
+}
+
+@article{Feindt1986,
+    author = {Feindt, F. and  Schr{\"o}ter, J.  and Alpers, W.},
+    title = {Measurement of the Ocean Wave-Radar Modulation Transfer Function at 35 GHz From a Sea-Based Platform in the North Sea},
+    journal = {Journal of Geophysical Research},
+    volume = {91},
+    number = {C8},
+    pages = {9701--9708},
+    year = {1986},
+}
+
+@article{Gangeskar2014,
+    author = {Gangeskar, R.},
+    title = {An Algorithm for Estimation of Wave Height From Shadowing in X-Band Radar Sea Surface Images},
+    journal = {IEEE Transactions on Geoscience and Remote Sensing},
+    volume = {52},
+    number = {6},
+    pages = {3373--3381},
+    year = {2014}
+}
+
+@article{gronlund09,
+    author = {Gr\"onlund, A. and Eliasson, B. and Marklund, M.},
+    title = {Evolution of rogue waves in interacting wave systems},
+    journal = {Eur. Phys. Lett.},
+    volume = {86},
+    number = {24001},
+    year = {2009}
+}
+
+
+@article{Huang2016,
+    author = {Huang, W. and Carrasco, R. and Shen, C. and Gill, E. W. and Horstmann, J.},
+    title = {Surface Current Measurements Using X-band Marine Radar with Vertical Polarization},
+    journal = {IEEE Transactions on Geoscience and Remote Sensing},
+    volume = {54},
+    number = {5},
+    pages = {2988--2997},
+    year = {2016}
+}
+
+@Article{Hwang2010,
+  author   = {Hwang, P. A. and Sletten, M. A. and Toporkov, J. V.},
+  journal  = {Journal of Geophysical Research: Oceans},
+  title    = {A note on Doppler processing of coherent radar backscatter from the water surface: With application to ocean surface wave measurements},
+  year     = {2010},
+  number   = {C3},
+  pages    = {n/a--n/a},
+  volume   = {115},
+  keywords = {Remote sensing and electromagnetic processes, Surface waves and tides, Upper ocean and mixed layer processes, Air/sea interactions, surface wave height, Doppler velocity, coherent radar},
+}
+
+@article{Hackett2015,
+    author = {Hackett, E. E. and Fullerton, A. M. and Merrill, C. F. and Thomas, C. F.},
+    title = {Comparison of Incoherent and Coherent Wave Field Measurements Using Dual-Polarized Pulse-Doppler X-Band Radar},
+    journal = {IEEE Transactions of Geoscience and Remote Sensing},
+    volume = {53},
+    number = {11},
+    pages = {5926--5942},
+    year = {2015},
+}
+ 
+@inProceedings{Hessner2001,
+    author = {Hessner, K. and Reichert ,K. and Dittmer, J and Nieto Borge, J. C.} ,
+    title = {Evaluation of WaMoS II wave data}, 
+    year = {2001},
+    booktitle = {Ocean Wave Measurement and Analysis},
+    pages = {221--230},
+    editor = {ASCE}
+}
+
+@techreport{IAHR1986,
+author = {IAHR/PIANC},
+title = {List of Sea State Parameters},
+type = {PIANC Supplement to Bulletin No. 52},
+institution = {General Secretariat of PIANC},
+address = {Residence Palace, Quartier Jordaen, rue de la Loi, 155, 1040 Brussels, Belgium},
+year = {1986}
+}
+
+IAHR/PIANC, "List of Sea State Parameters", PIANC Supplement to Bulletin No. 52, General Secretariat of PIANC, R6sidence Palace, Quartier Jordaens, rue de la Loi, 155, 1040 Brussels, Belgium, 1986.
+ 
+@Book{Kharif09,
+	author = {Kharif, C. and Pelinovsky, E. and Slunyaev, A.},
+	title = {Rogue waves in the ocean},
+	publisher = {Springer},
+	address = {Heidelberg},
+	year = {2009}
+}
+
+@Book{King2009,
+	author = {King, F.W.},
+	title = {Hilbert Transforms},
+	publisher = {Cambridge University Press},
+	volume = {1},
+	pages = {896},
+	year = {2009}
+}
+
+
+
+
+@Article{Krasitskii1994,
+	author = {V. P. Krasitskii},
+	title = {On reduced equations in the Hamiltonian theory of weakly nonlinear waves.},
+	journal = {J. Fluid Mech.},
+	volume = {272},
+	year = {1994},
+	pages = {1--20}
+}
+
+@Book{Lamb64,
+  author = {H. Lamb},
+  title = {Hydrodynamics [Russian translation]},
+  publisher = {OGIZ-Gostekhizdat},
+  year = {1964}
+}
+
+@Article{Lee1995,
+  author = {Lee, P.H.Y. and Barter, J. D. and Beach, K. L. and Hindman, C. L. and Lake, B. M. and Rungaldier, H. and Shelton, J.C. and Williams, A.B. and Yee, R. and Yuen, H. C.},
+  title = {X band microwave backscattering from ocean waves},
+  journal = {Journal of Geophysical Research},
+  volume = {100},
+  number = {C2},  
+  pages = {2591--2611},
+  year = {1995}
+}
+
+@Article{Lechuga06,
+  author = {Lechuga, A.},
+  title = {Were Freak Waves involved in the  sinking of the Tanker \'PRESTIGE\' ?},
+  journal = {Natural Hazards and earth system sciences},
+  volume = {6},
+  number = {6},  
+  year = {2006}
+}
+
+
+@Article{Litvak67,
+  author = {A. G. Litvak and V. I. Talanov},
+  title = {The application of the parabolic equation to the calculation of fields din dispersing nonlinear media},
+  journal = {Izv. VUZ. Radiofizika},
+  volume = {10},
+  pages = {539},
+  year = {1967}
+}
+
+@Article{LH1960,
+  author = {Longuet-Higgins, M. S. and Stewart, R. W.},
+  title = {Changes in teh form of shart gravity waves on long waves and tidal currents},
+  journal = {Journal of Fluid Mechanics},
+  volume = {8},
+  number = {4},
+  pages = {565--583},
+  year = {1960}
+}
+
+@Article{Lund2014,
+  author = {Lund, B. and Collins, C. O. and Graber, H. C. and Terrill, E. and Herbers, T. H. C.},
+  title = {Marine radar ocean wave retrieval's dependency on range and azimuth},
+  journal = {Izv. VUZ. Radiofizika},
+  volume = {64},
+  pages = {999--1018},
+  year = {2014}
+}
+
+@Book{Moiseev60,
+  author = {N. N. Moiseev},
+  title = {Surface waves [in {R}ussian]},
+  publisher = {Fizmatgiz},
+  year = {1960}
+}
+
+@Article{MoriJanssen06,
+  author = {N. Mori and P. A. E. M. Janssen},
+  title = {On Kurtosis and Occurrence Probability of Freak Waves},
+  journal = {Journal of Physical Oceanography},
+  volume = {36},
+  pages = {1471--1483},
+  year = {2006}
+}
+
+@Article{Mori06,
+  author = {N. Mori and M. Onorato and P. A. E. M. Janssen and A. R. Osborne and M. Serio},
+  title = {On the extreme statistics of long-crested deep water waves: Theory and experiments},
+  journal = {Journal of Geophysical Research},
+  volume = {112},
+  number = {C09011},
+  year = {2006}
+}
+
+@Article{Munk1950,
+  author = {Munk W.},
+  title = {Origin and Generation of Waves},
+	journal = {Coastal Engineering Proceedings},
+	volume = {1},
+	number = {1},
+	year = {1950},
+	keywords = {wave theory, generation, propagation, linear},
+	abstract = {It is no more possible to speak of the origin of ocean waves than it is to speak of the origin of sound waves, or of electromagnetic waves. Different types of waves exist, often simultaneously, and these differ from one another with respect to their origin and generation.},
+	issn = {2156-1028},
+	url = {https://icce-ojs-tamu.tdl.org/icce/index.php/icce/article/view/904},
+	pages = {1}
+}
+
+
+
+
+@INProceedings{Nieto98,
+  author = {Nieto Borge, J.C. and Ziemer, F. and Seemann, J. and Senet, C.},
+  title = {Overcome the Nyquist Limit in Frequency in Nautical Radar Measurement of Wave Fields},
+  booktitle = {OMAE 17th Int. conf. Proc., Lisbon, Portugal},
+  year = {1998}
+}
+
+
+@InProceedings{Nieto98b,
+  author = {Nieto Borge, J. C.},
+  title = {Significant wave height estimation from nautical radar data sets},
+  booktitle = {GKSS Research Center Geesthacht Rep. 98/E/28},
+  year = {1998}
+}
+
+@article{Nieto1999,
+    author = {Nieto-Borge, J.C. and Reichert, K. and Dittmer, J.},
+    title = {Use of Nautical Radar as a Wave Monitoring Instrument},
+    journal = {Journal of Coastal Engineering},
+    volume = {37},
+    page = {331--342},
+    year = {1999}
+}
+
+@Article{Nieto2000,
+  author   = {Nieto Borge, J.C. and Guedes Soares, C.},
+  journal  = {Coastal Engineering},
+  title    = {Analysis of directional wave fields using X-band navigation radar},
+  year     = {2000},
+  issn     = {0378-3839},
+  number   = {4},
+  pages    = {375 - 391},
+  volume   = {40},
+  abstract = {The aim of this work is to present an approach to describe complex sea states including the ones consisting of superpositions of swell and wind sea components, using a nautical radar in X-band as a remote sensing technique. In the present article, the inversion method to obtain the spectral representation of the wave fields is described. The method is applied to analyse data obtained from simulation techniques, as well as from measurements obtained during oceanographic campaigns in the Bay of Biscay and North Sea.},
+  doi      = {http://dx.doi.org/10.1016/S0378-3839(00)00019-3},
+  keywords = {Sea state, Directional spectrum, Waves, Currents, Nautical radars},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0378383900000193},
+}
+
+@article{Nieto2004,
+    author = {Nieto Borge, J. C. and Rodriguez, G. R.  and Hessner, K.  and Gonzalez,  P. I.},
+    title = {Inversion of Marine Radar Images for Surface Wave Analysis},
+    journal = {Journal of Atmospheric and Oceanic Technology},
+    volume = {21},
+    page = {1291--1300},
+    year = {2004}
+}
+
+@article{Nwogu2010,
+    author={Nwogu, O.G. and Lyzenga, D.R.},
+    journal={Geoscience and Remote Sensing Letters, IEEE},
+    title={Surface-Wavefield Estimation From Coherent Marine Radars},
+    year={2010},
+    volume={7},
+    number={4},
+    pages={631-635},
+    keywords={Doppler radar;marine radar;ocean waves;surface waves (fluid);velocity measurement;coherent marine radars;ocean wavefields;radar cross section;radial-velocity     measurements;real-time shipboard measurements;scalar potential function;surface-wavefield estimation;Doppler radar;Extraterrestrial measurements;Ocean waves;Radar antennas;Radar   cross section;Radar imaging;Radar measurements;Radar remote sensing;Sea measurements;Transfer functions;Coherent-on-receive;Doppler radars;ocean currents;ocean waves;radial velocity;remote sensing},
+    doi={10.1109/LGRS.2010.2043712},
+    ISSN={1545-598X},
+    month={Oct},}
+
+@Article{onorato10,
+  author = {Onorato, M. and Proment, D. and Toffoli, A.},
+  title = {Freak waves in crossing seas},
+  journal = {Eur. Phys. J.},
+  volume = {185},
+  pages = {45--55},
+  year = {2010}
+}
+    
+@Article{Oraevskii63,
+  author = {Oreavskii, V. N.  and  Sagdeev, R. Z.},
+  title = {On the stability of steady longitudinal oscillations of a plasma},
+  journal = {ZhTF},
+  number = {32},
+  pages = {1921},
+  year = {1963}
+}
+
+@Article{Oraevskii64,
+  author = {S. A. Akhmanov and R. V. Khokhlov},
+  title = {The stability of nonlinear steady oscillations of a plasma},
+  journal = {Yadernyi sintez},
+  number = {4},
+  pages = {263},
+  year = {1964}
+}
+
+@Article{Plant1978,
+  author = {Plant, W. J. and Keller, W. C. and Wright, J. W.},
+  title = {Modulation of Coherent Microwave Backscatter by Shoaling Waves},
+  journal = {Journal of Geophysical Research},
+  volume = {83},
+  number = {C3},
+  pages = {1347--1352},
+  year = {1978}
+}
+
+@Article{Plant1990,
+  author = {Plant, W. J. and Keller, W. C.},
+  title = {Evidence of Bragg Scattering in Microwave Doppler Spectra of Sea Return},
+  journal = {Journal of Geophysical Research},
+  volume = {95},
+  number = {C9},
+  pages = {16,299--16,310},
+  year = {1990}
+}
+
+@Article{Plant1997,
+  author = {Plant, W. J.},
+  title = {A model for microwave Doppler sea return at high incidence angles: Bragg scattering from bound, tilted waves},
+  journal = {Journal of Geophysical Research},
+  volume = {102},
+  number = {C9},
+  pages = {21,131--21,146},
+  year = {1997}
+}
+
+@Article{Plant2010,
+  author = {Plant, W. J. and Keller, W. C and Hayes, K. and Catham, G.},
+  title = {Normalized radar cross section of the sea for backscatter: 1. Mean levels},
+  journal = {Journal of Geophysical Research},
+  volume = {115},
+  number = {C09032},
+  year = {2010}
+}
+
+@Article{Plant2012,
+  author = {Plant, W. J. and Farquharson, G.},
+  title = {Wave shadowing and modulation of microwave backscatter from the ocean},
+  journal = {Journal of Geophysical Research},
+  volume = {117},
+  pages = {C08010},
+  year = {2012}
+}
+
+@Article{Plant2012b,
+  author = {Plant, W. J. and Farquharson, G.},
+  title = {Origins of features in wave number-frequency spectra of space-time images of the ocean},
+  journal = {Journal of Geophysical Research},
+  volume = {117},
+  pages = {C06015},
+  year = {2012}
+}
+
+@book{Rees2013,
+title = "Physical Principles of Remote Sensing:",
+author = "W. G. Rees",
+year = "2013",
+month = "009",
+day = "13",
+doi = "10.1017/CBO9780511812903",
+edition = "2",
+abstract = "This new edition textbook explains remote sensing of the Earth's surface and atmosphere from space using electromagnetic radiation. It covers topics such as overviews of electromagnetic propagation in free space and in matter, surface and volume scattering, the interaction of radiation with the atmosphere, the main classes of sensor, satellite orbits for remote sensing, and an introduction to image processing. Extensively revised and expanded, the second edition contains completely new material, including a discussion of the radiative transfer equation, atmospheric sounding techniques and interferometric radar and a discussion of GPS. Also including numerous problems with solutions, this book forms the basis of an introductory course for students  in remote sensing, geography, cartography, surveying, meteorology, earth sciences and environmental sciences. It will also be an essential reference for researchers and a useful supplementary text in some physics, mathematics and engineering " # "courses.",
+publisher = "Cambridge University Press",
+url = "https://www.cambridge.org/core/books/physical-principles-of-remote-sensing/08EBDC7B45B2FC6FCFF1443473C03BAE",
+isbn = "9780511812903",
+address = "Cambridge",
+pages = {58, 282--284}
+}
+
+@mastersthesis{Rye2014,
+	author = {Rye, L. B.},
+	title = {Freak waves in crossing sea with counterpropagating wave systems},
+	year  = {2014},
+	school  =  {University of Oslo},
+	address  =  {Norway},
+	url = {https://www.duo.uio.no/handle/10852/40393}
+}
+
+@Article{Salcedo-Sanz2015,
+  author = {Salcedo-Sanz, S. and Nieto Borge, J.C. and Carro-Calvo, L. and Cuadra, L. and Hessner, K. and Alexandre, E.},
+  title = {Significant Wave Height Estimation using SVR Algorithms and Shadowing Information from Simulated and Real Measured X-band Radar Images of the Sea Surface},
+  journal = {Ocean Engineering},
+  volume = {101},
+  pages = {244-253},
+  year = {2015}
+}
+
+@Article{Schroeter1986,
+  author = {Schr{\"o}ter, J. and  Feindt, F. and Alpers, W.  and  Keller, W. C.},
+  title = {Measurement of the Ocean Wave-Radar Modulation Transfer Function at 4.3 GHz},
+  journal = {Journal of Geophysical Research},
+  volume = {91},
+  number = {C1},
+  pages = {923--932},
+  year = {1986}
+}
+
+@InProceedings{Seemann1997,
+  author = {Seemann, J. and Ziemer, F. and Senet, M. Ch.},
+  title = {A Method for Computing Calibrated Ocean Wave Spectra from Measurements with a Nautical X-Band Radar},
+  booktitle = {IEEE Oceans},
+  volume = {2}, 
+  pages = {1148--1154},
+  year = {1997}
+}
+
+@Article{Senet2001,
+  author = {Senet, M. Ch. and Seemann, J. and Ziemer, F.},
+  title = {The Near-Surface Current Velocity Determined from Image Sequences of the Sea Surface},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume = {39},
+  number = {3},
+  pages = {492--505},
+  year = {2001}
+}
+
+
+
+@Article{shukla06b,
+  author = {Shukla, P. K and Kourakis, I. and Eliasson, B. and Marklund, M. and Stenflo, L.},
+  title = {Instability and evolution of nonlinearly interacting water waves},
+  journal = {Physical Review Letters},
+  volume = {97},
+  number = {094501},
+  year = {2006}
+}
+
+@Article{SrokoszHiggins1986,
+  author = {Srokosz, M. A. and Longuet-Higgins, M. S.},
+  title = {On the skewness of sea-surface elevation},
+  journal = {Journal of Fluid Mechanics},
+  volume = {164},
+  pages = {487--497},
+  year = {1986}
+}
+
+
+@article{Taklo2015,
+author = {Taklo,Tore Magnus A. and Trulsen,Karsten and Gramstad,Odin and Krogstad,Harald E. and Jensen,Atle},
+title = {Measurement of the dispersion relation for random surface gravity waves},
+journal = {Journal of Fluid Mechanics},
+volume = {766},
+month = {3},
+year = {2015},
+issn = {1469-7645},
+pages = {326--336},
+numpages = {11},
+doi = {10.1017/jfm.2015.25},
+URL = {http://journals.cambridge.org/article_S0022112015000257},
+}
+
+@Article{Tanaka2001,
+  author  = {Tanaka, M.},
+  journal = {Fluid Dyn. Res.},
+  title   = {A method of studying nonlinear random field of surface gravity waves by direct numerical simulation},
+  year    = {2001},
+  pages   = {41--60},
+  volume  = {28},
+}
+
+@Article{toffoli05,
+  author  = {Toffoli, A. and Lefevre, J. M. and Bitner-Gregersen, E. and Monbaliu, J.},
+  journal = {Appl. Ocean Res.},
+  title   = {Towards the identification of warning criteria: Analysis of a ship accident database},
+  year    = {2005},
+  pages   = {281--291},
+  volume  = {27},
+}
+
+@Article{toffoli11,
+  author  = {Toffoli, A. and Bitner-Gregersen, E. and Osborne, A. R. and Serio, M. and Monbaliu, J. and Onorato, M.},
+  journal = {Geophys. Res. Lett.},
+  title   = {Extreme waves in random crossing seas: Laboratory experiments and numerical simulations},
+  year    = {2011},
+  volume  = {38},
+}
+
+ @article{trulsen1999,
+    author  = {Karsten Trulsen},
+    title   = {{W}ave {K}inematics {C}omputer with the {N}onlinear {S}chr{\"o}dinger {M}ethod for {D}eep {W}ater},
+    journal = {{J}ournal of {O}ffshore {M}echanics and {A}rctic {E}ngineering-{T}ransactions of {T}he {A}sme},
+    volume  = {121},
+    year    = {1999},
+    pages   = {126--130},
+ }
+ 
+
+ @article{trulsen2001,
+    author  = {Karsten Trulsen and O. T. Gudmestad and M. G. Velarde},
+    title   = {The nonlinear Schr{\"o}dinger method for water wave kinematics on finite depth},
+    journal = {{W}ave {M}otion},
+    volume  = {33},
+    year    = {2001},
+    pages   = {379--395},
+ } 
+ 
+
+ @proceedings{trulsen2005,
+    author  = {Karsten Trulsen and Atle Jensen and Jon Grue},
+    title   = {Water wave kinematics of steep irregular waves - systematic perturbation approach, empirical law, PIV measurements and engineering practice},
+    journal = {{P}roceedings of 20th {I}nternational {W}orkshop on {W}ater {W}aves and {F}loating {B}odies},
+    year    = {2005},
+    pages   = {253--256},
+ }
+
+@Article{trulsen2015,
+  author  = {Trulsen, K. and Nieto Borge,J. C. and Gramstad,O. and Aouf, L. and Lef\`evre,J.–M.},
+  journal = {J. Geophys. Res. Oceans},
+  title   = {Crossing sea state and rogue wave probability during the Prestige accident},
+  year    = {2015},
+  pages   = {7113--7136},
+  volume  = {120},
+}
+
+@Inbook{Wetzel1990,
+author="Wetzel, Lewis B.",
+title="Electromagnetic Scattering from the Sea at Low Grazing Angles",
+bookTitle="Surface Waves and Fluxes: Volume II --- Remote Sensing",
+year="1990",
+publisher="Springer Netherlands",
+address="Dordrecht",
+pages="109--171"
+}
+
+
+
+@Article{West1987,
+  author = 	 {West, Bruce J. and Brueckner, Keith A. and Janda, Ralph S. and Milder, D. Michael and Milton, Robert L.},
+  title = 	 {A new numerical method for surface hydrodynamics.},
+  journal = {J. Geophysical Research},
+  year = 	 {1987},
+  volume =	 {92},
+  pages =	 {11803--11824}
+}
+
+@Article{Wright1975,
+  author  = {Keller, W. C. and Wright, J. W.},
+  journal = {Radio Science},
+  title   = {Microwave scattering and the straining of wind-generated waves},
+  year    = {1975},
+  number  = {2},
+  pages   = {139--147},
+  volume  = {10},
+}
+
+
+@article {Wright1980,
+    author = {Wright, J. W. and Plant, W. J. and Keller, W. C. and Jones, W. L.},
+    title = {Ocean wave-radar modulation transfer functions from the West Coast Experiment},
+    journal = {Journal of Geophysical Research},
+    volume = {85},
+    number = {C9},
+    issn = {2156-2202},
+    url = {http://dx.doi.org/10.1029/JC085iC09p04957},
+    doi = {10.1029/JC085iC09p04957},
+    pages = {4957--4966},
+    keywords = {Electromagnetics: Radio oceanography, Electromagnetics: Remote sensing, Oceanography: Surface waves, tides, and sea level},
+    year = {1980},
+}
+
+@ARTICLE{Young1985,
+   author = {{Young}, I.~R. and {Rosenthal}, W. and {Ziemer}, F.},
+    title = "{A three-dimensional analysis of marine radar images for the determination of ocean wave directionality and surface currents}",
+  journal = {JGR},
+     year = 1985,
+    month = jan,
+   volume = 90,
+    pages = {1049-1059},
+      doi = {10.1029/JC090iC01p01049},
+   adsurl = {http://adsabs.harvard.edu/abs/1985JGR....90.1049Y},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@Article{Zakharov65,
+  author  = {V. E. Zakharov},
+  journal = {PMTF [Journal of Applied Mechanics and Technical Physics]},
+  title   = {A solvable model for weak turbulence},
+  year    = {1965},
+  number  = {1},
+  pages   = {14},
+}
+ @Article{Zakharov1968,
+	author = {Zakharov, V. E.},
+	title = {Stability of periodic waves of finite amplitude on the surface of a deep fluid.},
+	journal = {J. Appl. Mech. Tech. Phys},
+	volume = {9},
+	year = {1968},
+	pages = {190--194},
+	misc = {English Translation}
+}
+
+@InProceedings{Ziemer1994,
+  author    = {Ziemer, F. and G{\"u}nther, H.},
+  booktitle = {2nd Int. Conf. Air-Sea Interaction Meteorol. Oceanogr. Coastal Zone},
+  title     = {A system to monitor ocean wave fields},
+  year      = {1994},
+}
+
+@Article{Brennan2018,
+  author  = {Brennan, Joseph and Dudley, John M and Dias, Fr{\'e}d{\'e}ric},
+  journal = {arXiv preprint arXiv:1802.03547},
+  title   = {Extreme waves in crossing sea states},
+  year    = {2018},
+}
+
+@Misc{Scipy2016,
+  author = {Scipy-community},
+  note   = {Viewed online 2016-12-16},
+  title  = {scipy.linalg.solve\_toeplitz},
+  year   = {2016},
+  url    = {https://docs.scipy.org/doc/scipy-0.17.0/reference/generated/scipy.linalg.solve_toeplitz.html},
+}
+
+@Misc{Scipy2016a,
+  author = {Scipy-community},
+  note   = {Viewed online 2016-11-11},
+  title  = {numpy.convolve},
+  year   = {2016},
+  url    = {https://docs.scipy.org/doc/numpy/reference/generated/numpy.convolve.html},
+}
+
+@Article{Fedele2016,
+  author    = {Fedele, Francesco and Brennan, Joseph and De Le{\'o}n, Sonia Ponce and Dudley, John and Dias, Fr{\'e}d{\'e}ric},
+  journal   = {Scientific reports},
+  title     = {Real world ocean rogue waves explained without the modulational instability},
+  year      = {2016},
+  pages     = {27715},
+  volume    = {6},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{Gramstad2007,
+  author  = {Gramstad, O. and Trulsen, K.},
+  journal = {Journal of Fluid Mechanics},
+  title   = {Influence of crest and group length on the occurrence of freak waves},
+  year    = {2007},
+  pages   = {463--472},
+  volume  = {582},
+}
+
+@Article{Gramstad2018,
+  author  = {Gramstad, O. and Bitner-Gregersen, E. and Nieto Borge, J.C. and Trulsen, K.},
+  journal = {To be published},
+  title   = {Modulational instability and rogue waves in crossing sea states},
+  year    = {2018},
+}
+
+@Book{Goda2010,
+  author = {Goda, Y.},
+  title = {Random Seas and Design of Maritime Structures},
+  publisher = {World Scientific},
+  pages = {732},
+  year = {2010}
+}
+
+@Article{NietoBorge2004,
+  author  = {Nieto Borge, J. C. and Rodr{\'i}guez, G. R. and Hessner, K. and Gonzalez, P. I.},
+  journal = {Journal of Atmospheric and Oceanic Technology},
+  title   = {Inversion of Marine Radar Images for Surface Wave Analysis},
+  year    = {2004},
+  pages   = {1291--1300},
+  volume  = {21},
+}
+    
+@Book{Ochi2008,
+  author = {Ochi, M. K.},
+  title = {Ocean Waves: The Stochastic Approach (Cambridge Ocean Technology Series)},
+  publisher = {Cambridge University Press},
+  howpublished = {Paperback},
+  year = {2008}
+}    
+
+@Article{Okamura1984,
+  author    = {Okamura, Makoto},
+  journal   = {Journal of the Physical Society of Japan},
+  title     = {Instabilities of weakly nonlinear standing gravity waves},
+  year      = {1984},
+  number    = {11},
+  pages     = {3788--3796},
+  volume    = {53},
+  publisher = {The Physical Society of Japan},
+}
+
+@Article{Onorato2006,
+  author    = {Onorato, Miguel and Osborne, AR and Serio, Mariana},
+  journal   = {Physical review letters},
+  title     = {Modulational instability in crossing sea states: A possible mechanism for the formation of freak waves},
+  year      = {2006},
+  number    = {1},
+  pages     = {014503},
+  volume    = {96},
+  publisher = {APS},
+}
+
+@Article{Taklo2017,
+  author  = {Taklo,Tore Magnus A. and Trulsen,Karsten and Gramstad,Odin and Krogstad,Harald E. and Nieto Borge, J. C.},
+  journal = {Journal of Fluid Mechanics},
+  title   = {On dispersion of directional surface gravity waves},
+  year    = {2017},
+  pages   = {681--697},
+  volume  = {812},
+}
+
+@Article{Wright1965,
+  author  = {Wright, F. F.},
+  journal = {Ocean Science and Ocean Engineering},
+  title   = {Wave Observations by Shipboard Radar},
+  year    = {1965},
+  pages   = {506--514},
+  volume  = {1},
+}
+
+@Article{stole2018extreme,
+  author    = {St{\o}le-Hentschel, Susanne and Trulsen, Karsten and Rye, Lisa B{\ae}verfjord and Raust{\o}l, Anne},
+  journal   = {Physics of Fluids},
+  title     = {Extreme wave statistics of counter-propagating, irregular, long-crested sea states},
+  year      = {2018},
+  number    = {6},
+  pages     = {067102},
+  volume    = {30},
+  publisher = {AIP Publishing LLC},
+}
+
+@Article{stole2020extreme,
+  author    = {St{\o}le-Hentschel, Susanne and Trulsen, Karsten and Borge, Jos{\'e} Carlos Nieto and Olluri, Shkurte},
+  journal   = {Water Waves},
+  title     = {Extreme wave statistics in combined and partitioned windsea and swell},
+  year      = {2020},
+  pages     = {1--16},
+  publisher = {Springer},
+}
+
+@Article{stole2018consistency,
+  author  = {St{\o}le-Hentschel, Susanne and Seemann, J{\"o}rg and Nieto Borge, Jos{\'e} Carlos and Trulsen, Karsten},
+  journal = {Journal of Atmospheric and Oceanic Technology},
+  title   = {Consistency between sea surface reconstructions from nautical X-band radar Doppler and amplitude measurements},
+  year    = {2018},
+  number  = {6},
+  pages   = {1201--1220},
+  volume  = {35},
+}
+
+@Article{stole2021deconvolution,
+  author    = {St{\o}le-Hentschel, Susanne and Borge, Jos{\'e} Carlos Nieto and Trulsen, Karsten},
+  journal   = {Ocean Engineering},
+  title     = {The deconvolution as a method to deal with gaps in ocean wave measurements},
+  year      = {2021},
+  pages     = {108373},
+  volume    = {219},
+  publisher = {Elsevier},
+}
+
+@InProceedings{stewart1974hf,
+  author       = {Stewart, Robert H and Joy, Joseph W},
+  booktitle    = {Deep sea research and oceanographic abstracts},
+  title        = {HF radio measurements of surface currents},
+  year         = {1974},
+  number       = {12},
+  organization = {Elsevier},
+  pages        = {1039--1049},
+  volume       = {21},
+}
+
+@Article{10.7717/peerj-cs.103,
+  author   = {Meurer, Aaron and Smith, Christopher P. and Paprocki, Mateusz and \v{C}ert\'{i}k, Ond\v{r}ej and Kirpichev, Sergey B. and Rocklin, Matthew and Kumar, AMiT and Ivanov, Sergiu and Moore, Jason K. and Singh, Sartaj and Rathnayake, Thilina and Vig, Sean and Granger, Brian E. and Muller, Richard P. and Bonazzi, Francesco and Gupta, Harsh and Vats, Shivam and Johansson, Fredrik and Pedregosa, Fabian and Curry, Matthew J. and Terrel, Andy R. and Rou\v{c}ka, \v{S}t\v{e}p\'{a}n and Saboo, Ashutosh and Fernando, Isuru and Kulal, Sumith and Cimrman, Robert and Scopatz, Anthony},
+  journal  = {PeerJ Computer Science},
+  title    = {SymPy: symbolic computing in Python},
+  year     = {2017},
+  issn     = {2376-5992},
+  month    = jan,
+  pages    = {e103},
+  volume   = {3},
+  abstract = {SymPy is an open source computer algebra system written in pure Python. It is built with a focus on extensibility and ease of use, through both interactive and programmatic applications. These characteristics have led SymPy to become a popular symbolic library for the scientific Python ecosystem. This paper presents the architecture of SymPy, a description of its features, and a discussion of select submodules. The supplementary material provide additional examples and further outline details of the architecture and features of SymPy.},
+  doi      = {10.7717/peerj-cs.103},
+  keywords = {Python, Computer algebra system, Symbolics},
+  url      = {https://doi.org/10.7717/peerj-cs.103},
+}
+
+@Article{2020SciPy-NMeth,
+  author  = {Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and Haberland, Matt and Reddy, Tyler and Cournapeau, David and Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright, Jonathan and {van der Walt}, St{\'e}fan J. and Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and Kern, Robert and Larson, Eric and Carey, C J and Polat, {\.I}lhan and Feng, Yu and Moore, Eric W. and {VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and Harris, Charles R. and Archibald, Anne M. and Ribeiro, Ant{\^o}nio H. and Pedregosa, Fabian and {van Mulbregt}, Paul and {SciPy 1.0 Contributors}},
+  journal = {Nature Methods},
+  title   = {{{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in Python}},
+  year    = {2020},
+  pages   = {261--272},
+  volume  = {17},
+  adsurl  = {https://rdcu.be/b08Wh},
+  doi     = {10.1038/s41592-019-0686-2},
+}
+
+@Article{lund2018near,
+  author    = {Lund, Bj{\"o}rn and Haus, Brian K and Horstmann, Jochen and Graber, Hans C and Carrasco, Ruben and Laxague, Nathan JM and Novelli, Guillaume and Guigand, C{\'e}dric M and {\"O}zg{\"o}kmen, Tamay M},
+  journal   = {Journal of Atmospheric and Oceanic Technology},
+  title     = {Near-surface current mapping by shipboard marine X-band radar: A validation},
+  year      = {2018},
+  number    = {5},
+  pages     = {1077--1090},
+  volume    = {35},
+  publisher = {American Meteorological Society},
+}
+
+@Article{zippel2017surface,
+  author    = {Zippel, Seth and Thomson, Jim},
+  journal   = {Journal of Geophysical Research: Oceans},
+  title     = {Surface wave breaking over sheared currents: Observations from the M outh of the C olumbia R iver},
+  year      = {2017},
+  number    = {4},
+  pages     = {3311--3328},
+  volume    = {122},
+  publisher = {Wiley Online Library},
+}
+
+@Article{honegger2019high,
+  author    = {Honegger, David A and Haller, Merrick C and Holman, Robert A},
+  journal   = {Coastal Engineering},
+  title     = {High-resolution bathymetry estimates via X-band marine radar: 1. beaches},
+  year      = {2019},
+  pages     = {39--48},
+  volume    = {149},
+  publisher = {Elsevier},
+}
+
+@Article{smeltzer2019observation,
+  author  = {Smeltzer, Benjamin K and {\AE}s{\o}y, Eirik and Ellingsen, Simen {\AA}},
+  journal = {arXiv preprint arXiv:1904.02498},
+  title   = {Observation of surface wave patterns modified by sub-surface shear currents},
+  year    = {2019},
+}
+
+@Article{,
+}
+
+@Article{ivonin2006singular,
+  author    = {Ivonin, Dmitry V and Shrira, Victor I and Broche, Pierre},
+  journal   = {IEEE Journal of Oceanic Engineering},
+  title     = {On the singular nature of the second-order peaks in HF radar sea echo},
+  year      = {2006},
+  number    = {4},
+  pages     = {751--767},
+  volume    = {31},
+  publisher = {IEEE},
+}
+
+@Article{,
+}
+
+@Article{ivonin2004validation,
+  author    = {Ivonin, Dmitry V and Broche, Pierre and Devenon, Jean-Luc and Shrira, Victor I},
+  journal   = {Journal of Geophysical Research: Oceans},
+  title     = {Validation of HF radar probing of the vertical shear of surface currents by acoustic Doppler current profiler measurements},
+  year      = {2004},
+  number    = {C4},
+  volume    = {109},
+  publisher = {Wiley Online Library},
+}
+
+@Article{shrira2001remote,
+  author    = {Shrira, Victor I and Ivonin, Dmitry V and Broche, Pierre and de Maistre, Jean C},
+  journal   = {Geophysical research letters},
+  title     = {On remote sensing of vertical shear of ocean surface currents by means of a Single-frequency VHF radar},
+  year      = {2001},
+  number    = {20},
+  pages     = {3955--3958},
+  volume    = {28},
+  publisher = {Wiley Online Library},
+}
+
+@InProceedings{gomez2014real,
+  author       = {Gomez, Roberto and Helzel, Thomas and Petersen, Leif and Kniephoff, Matthias and Merz, Clifford R and Liu, Yonggang and Weisberg, Robert H},
+  booktitle    = {OCEANS 2014-TAIPEI},
+  title        = {Real-time quality control of current velocity data on individual grid cells in WERA HF radar},
+  year         = {2014},
+  organization = {IEEE},
+  pages        = {1--7},
+}
+
+@Article{mulero2021assessment,
+  author    = {Mulero-Mart{\'\i}nez, R and G{\'o}mez-Enri, J and Ma{\~n}anes, R and Bruno, M},
+  journal   = {Remote Sensing of Environment},
+  title     = {Assessment of near-shore currents from CryoSat-2 satellite in the Gulf of C{\'a}diz using HF radar-derived current observations},
+  year      = {2021},
+  pages     = {112310},
+  volume    = {256},
+  publisher = {Elsevier},
+}
+
+@InProceedings{gomez2015estimation,
+  author       = {Gomez, Roberto and Helzel, Thomas and Wyatt, Lucy and Lopez, Guiomar and Conley, Daniel and Thomas, Nicolas and Smet, S{\'e}bastien and Sicot, Guillaume},
+  booktitle    = {OCEANS 2015-Genova},
+  title        = {Estimation of wave parameters from HF radar using different methodologies and compared with wave buoy measurements at the Wave Hub},
+  year         = {2015},
+  organization = {IEEE},
+  pages        = {1--9},
+}
+
+@Article{abascal2009application,
+  author    = {Abascal, Ana J and Castanedo, Sonia and Medina, Raul and Losada, Inigo J and Alvarez-Fanjul, Enrique},
+  journal   = {Marine Pollution Bulletin},
+  title     = {Application of HF radar currents to oil spill modelling},
+  year      = {2009},
+  number    = {2},
+  pages     = {238--248},
+  volume    = {58},
+  publisher = {Elsevier},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
